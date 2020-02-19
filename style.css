@@ -1,0 +1,29 @@
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10em;
+    border-color: grey;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+}
+
+.project_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    text-align: center;
+}
+
+.project_one div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
